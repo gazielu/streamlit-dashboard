@@ -1,0 +1,11 @@
+# create new env
+# the idea is to create the virtual env for each project.
+# the virtua env will placed as a sub folder in the main project folder
+# we will run the requirement file from the same folder
+# we give the virtual env general venv name
+
+python -m venv portfolio-streamlit\venv
+
+portfolio-streamlit\venv\scripts\activate.bat
+
+pip install -r portfolio-streamlit\requirements.txt
