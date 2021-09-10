@@ -4,7 +4,7 @@ build interactive and data-driven web apps in Python using the Streamlit library
 youtube link referance: https://www.youtube.com/watch?v=JwSS70SZdyM
 we will create 12 streamlit apps:
 
-App 1	- Simple Stock Price
+<br>App 1	- Simple Stock Price<br>
 App 2	- Simple Bioinformatics DNA
 App 3	- EDA Basketball
 App 4	- EDA Football data
