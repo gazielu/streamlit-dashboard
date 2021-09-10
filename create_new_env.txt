@@ -9,3 +9,6 @@ python -m venv portfolio-streamlit\venv
 portfolio-streamlit\venv\scripts\activate.bat
 
 pip install -r portfolio-streamlit\requirements.txt
+
+# create env using the system packages  - we can add package in the venv later
+python -m venv venv --system-site-packages
