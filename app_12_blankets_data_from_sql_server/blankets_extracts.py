@@ -26,7 +26,7 @@ password = 'fT7_E*4U6k_m'
 odbc_GABI_P = pyodbc.connect('DRIVER={ODBC Driver 17 for SQL Server};SERVER='+server+';DATABASE='+database+';UID='+username+';PWD='+ password)
 
 dynamic_sql = '''
-SELECT top 10 from [DMINDWNG_SCHEMA].[V_Quality_Status_Change_Reason_Dimension_Hierarchy]
+SELECT top 10 * from [DMINDWNG_SCHEMA].[V_Quality_Status_Change_Reason_Dimension_Hierarchy]
 '''
 
 pandas_read_pdf = pd.read_sql_query(sql = dynamic_sql,\
