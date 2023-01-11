@@ -26,7 +26,7 @@ def run_query(query):
         cur.execute(query)
         return cur.fetchall()
 
-rows = run_query("SELECT * from mytable;")
+rows = run_query("SELECT tpp 10 from [DMINDWNG_SCHEMA].[V_Quality_Status_Change_Reason_Dimension_Hierarchy];")
 
 # Print results.
 for row in rows:
