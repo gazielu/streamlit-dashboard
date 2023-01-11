@@ -1,4 +1,4 @@
-pybase==1.2.3
+pybase64==1.2.3
 altair==4.1.0
 seaborn==0.11.1
 pandas==1.2.4
